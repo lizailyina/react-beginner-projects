@@ -23,8 +23,8 @@ function App() {
     <div className="App">
       <button className="open-modal-btn" onClick={() => setOpen(true)}>✨ Открыть окно</button>
         <Modal open = {open} setOpen = {setOpen}>
-          {/* <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
-          <h3>It's MODAL</h3> */}
+          <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
+          <h3>It's MODAL</h3>
         </Modal>
     </div>
   );
